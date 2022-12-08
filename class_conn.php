@@ -4,9 +4,9 @@ date_default_timezone_set("Asia/Bangkok");
 class class_conn{
 //ตั้งฐานข้อมูล
 public $db_server = "localhost";
-public $db_username = "u658774035_root";
-public $db_password = "KayKay1188";
-public $db_database = "u658774035_finaltest";
+public $db_username = "root";
+public $db_password = "qwerty@123";
+public $db_database = "db_admin";
 //ฟังก์ชั่นในการเรียกดูข้อมูล จะใช้กับ select ต่างๆ
 
 public function select_base($sql){
